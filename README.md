@@ -7,7 +7,7 @@
 
 ---
 
-Have you ever searched for an image or file but couldn’t remember its name?
+Have you ever searched for a file but couldn’t remember its name?
 but remembered its contents perfectly?
 Or knew the name but had no clue where it was saved? 🗂️🤷‍♀️
 
