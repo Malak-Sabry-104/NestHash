@@ -41,17 +41,16 @@ All data is stored locally in a JSON database for quick access and easy portabil
 ## ✍️ Basic Usage
 
 **Add tags to a file:**
-
 ```bash
 python tagnest.py tag "C:/Users/Example/file.txt" #urgent #work
 ```
+
 ````
-
 **Remove a specific tag from a file:**
-
 ```bash
-python tagnest.py remove "C:/Users/Example/file.txt" #urgent
+pyhton tagnest.py remove "c:Users/Example/file.txt" #urgent
 ```
+
 
 **Update all tags for a file:**
 
