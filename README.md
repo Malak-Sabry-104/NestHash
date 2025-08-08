@@ -75,6 +75,26 @@ python tagnest.py search #work
 
 ---
 
+## 🤔 How It Works
+
+NestHash creates a simple tagging system without touching your actual files. Here's how it works:
+
+### 🏷️ Tagging
+- You assign hashtags to files.
+- Tags are saved in a local JSON file (`tags_db.json`).
+
+### 💾 Storage
+- The JSON file maps file paths to their tags.
+- No files are moved or renamed.
+
+### 🔍 Searching
+- You can find files instantly by searching tags.
+
+### 🔒 Safe by Design
+- Files stay untouched — only the tag data is updated or removed.
+
+---
+
 ## 🗂️ Project Structure
 
 Nothing complicated here — just a clean, easy-to-follow layout:
