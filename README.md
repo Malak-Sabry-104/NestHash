@@ -1,4 +1,3 @@
-````markdown
 # NestHash
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
@@ -43,9 +42,9 @@ All data is stored locally in a JSON database for quick access and easy portabil
 **Add tags to a file:**
 ```bash
 python tagnest.py tag "C:/Users/Example/file.txt" #urgent #work
-```
-
 ````
+
+
 **Remove a specific tag from a file:**
 ```bash
 pyhton tagnest.py remove "c:Users/Example/file.txt" #urgent
@@ -53,19 +52,16 @@ pyhton tagnest.py remove "c:Users/Example/file.txt" #urgent
 
 
 **Update all tags for a file:**
-
 ```bash
 python tagnest.py update "C:/Users/Example/file.txt" #personal #archive
 ```
 
 **Show all tags for a file:**
-
 ```bash
 python tagnest.py show "C:/Users/Example/file.txt"
 ```
 
 **Search for files by tags:**
-
 ```bash
 python tagnest.py search #work
 ```
