@@ -7,12 +7,13 @@
 
 ---
 
-Have you ever searched for an image or file but couldn’t remember its name — yet remembered its contents perfectly?  
-Or maybe you knew the name but couldn’t recall where it was stored?
+Have you ever searched for an image or file but couldn’t remember its name?
+but remembered its contents perfectly?🧠🔍
+Or knew the name but had no clue where it was saved? 🗂️🤷‍♀️
+Yeah... same here.
+And when things disappear, I’m left wondering: was it deleted, or just hiding somewhere? 🫥🗑️
 
-That’s exactly the problem I often face. And to make matters worse, when something gets deleted, I’m never sure whether it’s gone for good or just hiding somewhere else.
-
-One day, while looking for a CLI project idea to practice on, I came up with **NestHash**.
+That’s what inspired me to build NestHash — a CLI project born from that everyday struggle. 💡🛠️
 
 ---
 
@@ -40,28 +41,31 @@ All data is stored locally in a JSON database for quick access and easy portabil
 ## ✍️ Basic Usage
 
 **Add tags to a file:**
+
 ```bash
 python tagnest.py tag "C:/Users/Example/file.txt" #urgent #work
-````
-
+```
 
 **Remove a specific tag from a file:**
+
 ```bash
 pyhton tagnest.py remove "c:Users/Example/file.txt" #urgent
 ```
 
-
 **Update all tags for a file:**
+
 ```bash
 python tagnest.py update "C:/Users/Example/file.txt" #personal #archive
 ```
 
 **Show all tags for a file:**
+
 ```bash
 python tagnest.py show "C:/Users/Example/file.txt"
 ```
 
 **Search for files by tags:**
+
 ```bash
 python tagnest.py search #work
 ```
