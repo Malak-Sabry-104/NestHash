@@ -1,4 +1,4 @@
-`markdown
+````markdown
 # NestHash
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
@@ -38,46 +38,46 @@ All data is stored locally in a JSON database for quick access and easy portabil
 
 ---
 
-## ✍ Basic Usage
+## ✍️ Basic Usage
 
 **Add tags to a file:**
 
-bash
+```bash
 python tagnest.py tag "C:/Users/Example/file.txt" #urgent #work
 ```
 ````
 
-*Remove a specific tag from a file:*
+**Remove a specific tag from a file:**
 
-bash
+```bash
 python tagnest.py remove "C:/Users/Example/file.txt" #urgent
+```
 
+**Update all tags for a file:**
 
-*Update all tags for a file:*
-
-bash
+```bash
 python tagnest.py update "C:/Users/Example/file.txt" #personal #archive
+```
 
+**Show all tags for a file:**
 
-*Show all tags for a file:*
-
-bash
+```bash
 python tagnest.py show "C:/Users/Example/file.txt"
+```
 
+**Search for files by tags:**
 
-*Search for files by tags:*
-
-bash
+```bash
 python tagnest.py search #work
-
+```
 
 ---
 
-## 🗂 Project Structure
+## 🗂️ Project Structure
 
 Nothing complicated here — just a clean, easy-to-follow layout:
 
-
+```
 tagnest/
 ├── tagnest.py           # CLI entry point
 ├── tags_db.json         # Local JSON tag database
@@ -94,16 +94,16 @@ tagnest/
 ├── README.md            # Project documentation
 ├── requirements.txt     # Dependencies (Click, Colorama, etc.)
 └── .gitignore           # Ignore unnecessary files
-
+```
 
 ---
 
-## 🛠 Future Plans
+## 🛠️ Future Plans
 
-- *Database Upgrade* – Move from local JSON storage to SQLite for better scalability and performance.
-- *Tag Suggestions* – Automatically suggest relevant tags using AI/NLP based on file content.
-- *Web Dashboard* – Build a browser-based interface to manage and search files visually.
-- *Cloud Sync* – Optional sync with Google Drive, Dropbox, or S3 for multi-device access.
+- **Database Upgrade** – Move from local JSON storage to SQLite for better scalability and performance.
+- **Tag Suggestions** – Automatically suggest relevant tags using AI/NLP based on file content.
+- **Web Dashboard** – Build a browser-based interface to manage and search files visually.
+- **Cloud Sync** – Optional sync with Google Drive, Dropbox, or S3 for multi-device access.
 
 ---
 
@@ -113,34 +113,34 @@ tagnest/
 
 Clone this repository (if you haven’t already):
 
-bash
+```bash
 git clone https://github.com/YourUsername/nesthash.git
 cd nesthash
-
+```
 
 Set up a virtual environment (highly recommended):
 
-bash
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 
 Install requirements:
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 (Optional) Install development dependencies:
 
-bash
+```bash
 pip install -r dev-requirements.txt
-
+```
 
 ---
 
 ## 📜 License
 
-This project is licensed under the *MIT License*.
+This project is licensed under the **MIT License**.
 Permission is granted to use, modify, and distribute this software for personal or commercial purposes, provided that all copies or substantial portions include the original copyright
 notice and license.
