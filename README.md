@@ -8,11 +8,12 @@
 ---
 
 Have you ever searched for an image or file but couldn’t remember its name?
-but remembered its contents perfectly?🧠🔍
+but remembered its contents perfectly?
 Or knew the name but had no clue where it was saved? 🗂️🤷‍♀️
-Yeah... same here.
-And when things disappear, I’m left wondering: was it deleted, or just hiding somewhere? 🫥🗑️
 
+- Yeah... same here.
+- 
+And when things disappear, I’m left wondering: was it deleted, or just hiding somewhere? 🫥🗑️
 That’s what inspired me to build NestHash — a CLI project born from that everyday struggle. 💡🛠️
 
 ---
